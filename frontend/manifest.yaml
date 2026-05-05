@@ -37,7 +37,7 @@ data:
       # Logging Settings
       ##
       access_log /var/log/nginx/access.log;
-     warn or error for production
+      error_log /var/log/nginx/error.log debug;
 
       ##
       # Gzip Settings
