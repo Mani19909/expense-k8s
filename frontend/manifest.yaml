@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: manikantarouthu/frontend:v1.0
+        image: manikantarouthu/frontendend:v1.0
         # envFrom: 
         # - configMapRef:
             # name: frontend
